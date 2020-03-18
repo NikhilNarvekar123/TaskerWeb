@@ -1,0 +1,90 @@
+body {
+background-color: #676767;
+}
+p {
+  color: #ff7400;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+h2 {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.jumbotron {
+  background-color: #1DA1F2;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.def_jumbo>.jumbotron {
+  background-color: #1DA1F2;
+  margin-top:30px;
+  margin-bottom:30px;
+  height: 170px;
+}
+button {
+  background-color: #ff7400;  
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color:  #FFFFFF;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  height: 50px;
+  transition: 0.4s;
+}
+button:hover {
+  font-size:15px;
+  height: 50px;
+  background-color:#ff4d00;
+}
+.def_jumbo>.jumbotron>.horizontal>.wrapper>button {
+  background-color: #77DD77;  
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color:  #FFFFFF;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  width: 125px;
+  height: 50px;
+  transition: 0.4s;
+}
+.wrapper {
+  text-align: center;
+  display: inline;
+}
+.wrapper:nth-child(1) {
+  width: 50%;
+  float:left;
+}
+.wrapper:nth-child(3) {
+  width: 50%;
+  float:left;
+}
+input {
+  font-family: "Roboto", sans-serif;
+  width: 800px;
+  height: 70px;
+  border: 2px solid #00ccff;
+  border-radius: 10px;
+  padding-left: 10px;
+} 
+.container {
+  text-align: center;
+}
+.horizontal {
+  width:100%;
+} 
+.def_jumbo>.jumbotron>.horizontal {
+  width:30%;
+  float: right;
+}

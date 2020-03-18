@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel= "stylesheet" href="style.css">
+    <h1>Tasker!</h1>
+    <script src="main.js"></script>
+</head>
+<body onload="loadData()">
+    
+    <div class = "container" id="parentContainer">
+        <div class = "def_jumbo" id="firstJumbo">
+            <div class = "jumbotron" id = "firstTask" >
+                <h2>No Tasks &nbsp  :-( </h2>                
+            </div>
+        </div>
+    </div>
+
+    <div class="horizontal">
+        
+        <div class = "wrapper">
+            <a href="newEvent.html">
+            <button type="button" id = "btn" onclick="addNewTask(this)"> 
+                Add New Task...
+            </button>
+        </div>  
+
+        <div class = "wrapper">
+            <a href="index.html">
+            <button type="button" onclick="clearData()">
+                Clear All Tasks
+            </button>
+        </div>
+
+    </div>
+
+</body>
+</html>
